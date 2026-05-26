@@ -670,12 +670,12 @@ export default function CategoryPageNASA() {
     if (post.images && Array.isArray(post.images) && post.images.length > 0) {
       const firstImage = post.images[0];
       if (typeof firstImage === "string")
-        return `http://127.0.0.1:3000${firstImage}`;
-      if (firstImage.url) return `http://127.0.0.1:3000${firstImage.url}`;
+        return `https://api-ksapcelife.onrender.com${firstImage}`;
+      if (firstImage.url) return `https://api-ksapcelife.onrender.com${firstImage.url}`;
     }
     if (post.featured_image)
-      return `http://127.0.0.1:3000${post.featured_image}`;
-    if (post.image) return `http://127.0.0.1:3000${post.image}`;
+      return `https://api-ksapcelife.onrender.com${post.featured_image}`;
+    if (post.image) return `https://api-ksapcelife.onrender.com${post.image}`;
     return null;
   };
 

@@ -816,7 +816,7 @@ const PostDetailPage = () => {
           {post.images?.[0] && (
             <div className="mb-8 rounded-2xl overflow-hidden bg-gray-100">
               <img
-                src={`http://localhost:3000${post.images[0]}`}
+                src={`https://api-ksapcelife.onrender.com${post.images[0]}`}
                 className="w-full h-auto object-cover"
                 alt={post.title_kh}
                 loading="lazy"
@@ -872,7 +872,7 @@ const PostDetailPage = () => {
                     className="rounded-xl overflow-hidden bg-gray-100 shadow-sm"
                   >
                     <img
-                      src={`http://localhost:3000${img}`}
+                      src={`https://api-ksapcelife.onrender.com${img}`}
                       className="w-full h-auto object-cover"
                       alt={`Image ${index + 2}`}
                       loading="lazy"
@@ -952,7 +952,7 @@ const PostDetailPage = () => {
                     <div className="relative h-32 overflow-hidden bg-gray-100">
                       {rp.images?.[0] ? (
                         <img
-                          src={`http://localhost:3000${rp.images[0]}`}
+                          src={`https://api-ksapcelife.onrender.com${rp.images[0]}`}
                           className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
                           alt={rp.title_kh}
                         />
