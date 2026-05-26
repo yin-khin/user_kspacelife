@@ -1,0 +1,67 @@
+/* Fix text wrapping for Khmer language */
+.prose {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  line-break: normal;
+}
+
+.prose p {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  margin-bottom: 1rem;
+}
+
+.prose div, 
+.prose span,
+.prose h1, 
+.prose h2, 
+.prose h3, 
+.prose h4, 
+.prose h5, 
+.prose h6 {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+/* For all text content */
+.break-word {
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+/* Fix Khmer text wrapping */
+.post-content,
+.post-content-inner,
+.post-content p,
+.post-content div,
+.post-content span,
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  white-space: normal !important;
+  line-break: normal !important;
+}
+
+.post-content p {
+  margin-bottom: 1.25rem !important;
+}
+
+.post-content br {
+  display: block !important;
+  content: "" !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* For all text content */
+* {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
